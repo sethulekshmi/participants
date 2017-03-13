@@ -152,4 +152,4 @@ let participants_info = {
 	
 
 };
-exports.participants_info = participants_info;
+module.exports = participants_info;
