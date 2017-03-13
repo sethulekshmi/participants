@@ -21,19 +21,19 @@ let registerUser = function(req, res) {
 			numberAff = '0001';
 			break;
 		case 'Buyer':
-			numberAff = '0004';
+			numberAff = '0002';
 			break;
 		case 'Trader':
-			numberAff = '0005';
+			numberAff = '0003';
 			break;
 		case 'Cutter':
-			numberAff = '0006';
+			numberAff = '0004';
 			break;
 		case 'Jewellery_maker':
-			numberAff = '0007';
+			numberAff = '0003';
 			break;
 		case 'Customer':
-			numberAff = '0008';
+			numberAff = '0005';
 			break;
     }
 
