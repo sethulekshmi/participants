@@ -1,4 +1,4 @@
-
+'use strict';
 
 const hfc = require('hfc');
 const Asset = require(__dirname+'/../../../tools/utils/asset');
@@ -22,8 +22,7 @@ let assetData;
 let assetIDResults;
 function create(req, res, next, usersToSecurityContext) {
     try {
-		assetIDResults=[];
-		initial_assets = reload(__dirname+'/../../../blockchain/assets/assets/initial_assets.js');
+		assetIDResults=[];	
         let chain = hfc.getChain('myChain');
         assetData = new Asset(usersToSecurityContext);
 
@@ -47,12 +46,12 @@ function create(req, res, next, usersToSecurityContext) {
 
         if(diamonds.hasOwnProperty('diamonds')) {
             tracing.create('INFO', 'Demo', 'Found diamonds');
-            let diamondVal = diamonds.diamonds;
+             diamond = diamonds.diamonds;
                 updateDemoStatus({message: 'Creating assets'});
             //chain.getEventHub().connect();
-            return createAssets(diamondVal)
+            return createAssets(diamonds)
             .then(function() {
-				console.log('got assets');
+				
                 return assetIDResults.reduce(function(prev, assetID, index) {
                    
 					let Diamond = diamondVal[index];
