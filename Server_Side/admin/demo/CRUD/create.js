@@ -10,9 +10,7 @@ var reload = require('require-reload')(require),
 let fs = require('fs');
 
 const TYPES = [
-    'miner_to_distributor',
-    'distributor_to_dealership',
-    'dealership_to_buyer',
+    'miner_to_buyer',
     'buyer_to_trader',
     'trader_to_cutter',
 'cutter_to_jewellery_maker',
@@ -62,7 +60,7 @@ function create(req, res, next, usersToSecurityContext) {
                   let seller = map_ID.user_to_id('Kollur');
                     let buyer = map_ID.user_to_id(Diamond.Owners[1]);
                      return prev.then(function() {
-                        return transferAsset(assetID, seller, buyer, 'miner_to_distributor');
+                        return transferAsset(assetID, seller, buyer, 'miner_to_buyer');
                     });
                 }, Promise.resolve());
             })
