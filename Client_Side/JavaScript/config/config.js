@@ -12,8 +12,6 @@ let config = {};
 config.logo = {};
 config.logo.main = {};
 config.logo.miner = {};
-config.logo.distributor = {};
-config.logo.dealership = {};
 config.logo.buyer = {};
 config.logo.trader = {};
 config.logo.cutter = {};
@@ -35,16 +33,12 @@ config.logo.logo = 'Icons/logo.png';
 config.participants = {};
 config.participants.users = {};
 config.participants.users.miners = [];
-config.participants.users.distributors = [];
-config.participants.users.dealerships = [];
 config.participants.users.buyers = [];
 config.participants.users.traders = [];
 config.participants.users.cutters = [];
 config.participants.users.jewellery_makers = [];
 config.participants.users.customers = [];
 config.participants.miner = {};
-config.participants.distributor = {};
-config.participants.dealership = {};
 config.participants.buyer = {};
 config.participants.trader = {};
 config.participants.cutter = {};
@@ -61,37 +55,6 @@ config.participants.users.miners[0].company = 'Kollur';
 config.participants.users.miners[0].type = 'Miner';
 config.participants.users.miners[0].user = 'Ronald';
 
-// Distributors
-config.participants.users.distributors[0] = {};
-config.participants.users.distributors[0].company = 'Soham_Industrial_Diamonds';
-config.participants.users.distributors[0].type = 'Distributor';
-config.participants.users.distributors[0].user = 'Martin';
-
-config.participants.users.distributors[1] = {};
-config.participants.users.distributors[1].company = 'Laxmi_Impex';
-config.participants.users.distributors[1].type = 'Distributor';
-config.participants.users.distributors[1].user = 'Maria';
-
-config.participants.users.distributors[2] = {};
-config.participants.users.distributors[2].company = 'Harshal_diamonds';
-config.participants.users.distributors[2].type = 'Distributor';
-config.participants.users.distributors[2].user = 'Mandy';
-
-// Dealerships
-config.participants.users.dealerships[0] = {};
-config.participants.users.dealerships[0].company = 'Beon_ Group';
-config.participants.users.dealerships[0].type = 'Dealership';
-config.participants.users.dealerships[0].user = 'Deborah';
-
-config.participants.users.dealerships[1] = {};
-config.participants.users.dealerships[1].company = 'Milescape';
-config.participants.users.dealerships[1].type = 'Dealership';
-config.participants.users.dealerships[1].user = 'Dennis';
-
-config.participants.users.dealerships[2] = {};
-config.participants.users.dealerships[2].company = 'Viewers Alfa Romeo';
-config.participants.users.dealerships[2].type = 'Dealership';
-config.participants.users.dealerships[2].user = 'Delia';
 
 // Buyers
 config.participants.users.buyers[0] = {};
@@ -182,11 +145,7 @@ config.participants.users.customers[2].user = 'Sid';
 // Miner
 config.participants.miner = config.participants.users.miners[0];
 
-// Distributor
-config.participants.distributor = config.participants.users.distributors[0];
 
-// Dealership
-config.participants.dealership = config.participants.users.dealerships[0];
 
 // Buyer
 config.participants.buyer = config.participants.users.buyers[0];
