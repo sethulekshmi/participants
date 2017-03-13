@@ -57,66 +57,7 @@ config.users = [
         roles: [],
         affiliation: 'institution_a'
     },
-    {
-        enrollmentID: 'soham_industrial_diamonds',
-        attributes: [
-            {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'soham_industrial_diamonds'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'laxmi_impex',
-        attributes: [
-            {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'laxmi_impex'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'harshal_diamonds',
-        attributes: [
-            {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'harshal_diamonds'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Beon_Group',
-        attributes: [
-            {name: 'role', value: 'dealership'},
-            {name: 'username', value: 'Beon_Group'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Milescape',
-        attributes: [
-            {name: 'role', value: 'dealership'},
-            {name: 'username', value: 'Milescape'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
-    {
-        enrollmentID: 'Viewers_laxmi_impex',
-        attributes: [
-            {name: 'role', value: 'dealership'},
-            {name: 'username', value: 'Viewers_laxmi_impex'}
-        ],
-        registrar: {},
-        roles: [],
-        affiliation: 'institution_a'
-    },
+   
     {
         enrollmentID: 'Shah',
         attributes: [
